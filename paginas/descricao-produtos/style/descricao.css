@@ -43,6 +43,15 @@
 .tamanhos .btn .GG{
     padding: 10px 8px 10px 8px;
 }
+
+.tamanhos .btn{
+    margin: 0 15px;
+}
+
+.tamNumber{
+    padding: 10px 11px;
+}
+
 .tamanhos a:hover{
     background-color: #031D44;
     text-decoration: none;
