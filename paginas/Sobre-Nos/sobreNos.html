@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AnimeC</title>
+        <!--Favicon da página-->
+        <link rel="shortcut icon" href="../Home/imagens/logo/favicon.png">
+        <!--Link do CSS-->
+        <link type="text/css" rel="stylesheet" href="style/sobreNos.css">
+        <!--Link do Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!--Box Icons Font CDN LINK-->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <!--Font Waesome Font CDN LINK-->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <!--Jquery-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+        <script src = "https://code.jquery.com/jquery-3.4.1.js" ></script>
+        
+    
+    </head>
+    <body>
+    <!------------------INICIO DO MENU EM HTML-->
+        <div class="menu">
+            <!--Formulário de login-->
+            <div id="pop1" class="popbox">
+                <div class="formLog">
+                    <form action="../Home/index.html" method="get" id="login">
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" required="required">
+                        
+                        <label for="senha">Senha:</label><br>
+                        <input type="password" id="senha" name="senha" required="required"><br>
+                    </form>
+
+                    <!--Botões de Entrar e Cancelar-->
+                    <div class="entar-cancelar">
+                        <button type="submit" form="login" class="btnEntrar acessar" >Entrar</button>
+                        <a href="../Login-Cadastro/cadastro.html" class="btnCadastrar acessar">Cadastrar-se</a>
+                    </div>
+                </div>
+            </div>
+            <!--Login, sacola de compras, favoritos e perfil-->
+            <div class="row acessos mr-0">
+                <div class="col-6 logCad">
+                    <a href="../Login-Cadastro/login.html" class="logCadBtn">login/cadastro</a>
+                </div>
+                <div class="col-5 compras">
+                    <a href="#" class="sacola"><i class='bx bxs-shopping-bag-alt arrowCompras'></i></a>
+                    <a href="#" class="favoritos"><i class='bx bxs-heart arrowCompras'></i></a>
+                    <a href="#" class="usuario popper" data-popbox="pop1"><i class='bx bxs-user arrowCompras'></i></a>
+                </div>
+            </div>
+
+            <!--Logo, menu de navegação e barra de busca -->
+            <div id="navMenu row">
+                <!--Logo-->
+                <div class="logo">
+                    <label><a class="imgLogo" href="#"><img src="../imagens/logo/logo-branco-menor.png"></a></label>
+                </div>
+                <div class="hamburguer">
+                    <span class="fas fa-bars"></span>
+                </div>
+                <!--menu de navegaçã -->
+                <nav class="mainMenu" id="sidebar">
+                    <div class="nav">
+                        <ul class="links">
+                            <li class="active"><a href="../Home/index.html">HOME</a></li>
+                            <li><a href="sobreNos.html">SOBRE NÓS</a></li>
+                            <li>
+                                <a class="prodBtn" href="#">PRODUTOS
+                                    <span class="fas fa-caret-down only"></span>
+                                </a>
+                                <ul class="prod-show">
+                                    <li><a href="#">Camisetas</a></li>
+                                    <li><a href="#">Calças</a></li>
+                                    <li><a href="#">Moletons</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../Contato/contato.html">CONTATO</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    <!------------------FIM DO MENU EM HTML-->
+        <br><br>
+        <br><br>
+
+
+    <!------------------INÍCIO DA PÁGINA EM HTML-->
+
+    <section>
+        <div class="quemSomosFazemos row mr-0">
+            <div class="quemSomos col-md-6">
+                <h1 class="titulo somos">Quem somos?</h1>
+                <p class="textSomos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, pariatur amet laborum labore aliquam nulla animi illum fuga dolor tenetur! Iusto, aperiam reiciendis nam suscipit illum earum amet cupiditate enim.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, pariatur amet laborum labore aliquam nulla animi illum fuga dolor tenetur! Iusto, aperiam reiciendis nam suscipit illum earum amet cupiditate enim.
+                </p>
+            </div>
+
+            <div class="oqueFazemos col-md-6">
+                <h1 class="titulo fazemos">O que fazemos?</h1>
+                <p class="textFazemos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, pariatur amet laborum labore aliquam nulla animi illum fuga dolor tenetur! Iusto, aperiam reiciendis nam suscipit illum earum amet cupiditate enim.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, pariatur amet laborum labore aliquam nulla animi illum fuga dolor tenetur! Iusto, aperiam reiciendis nam suscipit illum earum amet cupiditate enim.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <br><br>
+
+
+    <section>
+        <div class="infoEmpresa row mr-0" >
+            <div class="infos1-2 col-md-6 row mr-0">
+                <div class="info1 col-6">
+                    <i class="fas fa-user iconInfo"></i>
+                    <p>+2000 clientes <br> satisfeitos</p>
+                </div>
+                <div class="info2 col-6">
+                    <i class="fas fa-calendar-week iconInfo"></i>
+                    <p>3 anos no <br> mercado</p>
+                </div>
+            </div>
+
+            <div class="infos3-4 col-md-6 row mr-0">
+                <div class="info3 col-6">
+                    <i class="fas fa-check-circle iconInfo"></i>
+                    <p>Qualidade nos <br> produtos</p>
+                </div>
+                <div class="info4 col-6">
+                    <i class="fas fa-clock iconInfo"></i>
+                    <p>Práticidade e <br> eficiência</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <br><br>
+
+    
+    
+
+    <section class="historiaEmpresa">
+        <h1>Nossa história</h1>
+        <div class="nascimento row mr-0">
+            <div class="col-md-6 imgHistoria">
+                <img src="https://pequenosnegocioslucrativos.com.br/wp-content/uploads/2017/10/maquina-de-estampar-camisetas.jpg" alt="Fazendo estampas">
+            </div>
+            <div class="col-md-6 txtHistoria">
+                <p>
+                    <strong style="margin-left: 40%; font-size: 20px; color: #247ba0;">Nascimento</strong> <br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab reprehenderit veritatis praesentium
+                    velit autem enim blanditiis quod? Fugiat quod accusantium ab molestias dicta laborum recusandae
+                    explicabo, nulla maiores dolorem veniam?Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ab reprehenderit veritatis praesentium velit autem enim blanditiis quod? Fugiat quod accusantium ab molestias
+                    dicta laborum recusandae explicabo, nulla maiores dolorem veniam?
+                </p>
+                </div>
+        </div>
+        <br><br>
+
+        <div class="jornada row mr-0">
+            <div class="col-md-6 txtHistoria">
+                <p>
+                    <strong style="margin-left: 40%; font-size: 20px; color: #247ba0;">Nascimento</strong> <br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab reprehenderit veritatis praesentium
+                    velit autem enim blanditiis quod? Fugiat quod accusantium ab molestias dicta laborum recusandae
+                    explicabo, nulla maiores dolorem veniam?Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ab reprehenderit veritatis praesentium velit autem enim blanditiis quod? Fugiat quod accusantium ab molestias
+                    dicta laborum recusandae explicabo, nulla maiores dolorem veniam?
+                </p>
+            </div>
+            <div class="col-md-6 imgHistoria">
+                <img src="https://pequenosnegocioslucrativos.com.br/wp-content/uploads/2017/10/maquina-de-estampar-camisetas.jpg" alt="Fazendo estampas">
+            </div>
+            
+        </div>
+    </section>
+
+    <br><br><br><br><br><br>
+
+    <section>
+        <div class="mvv row mr-0">
+            <div class="missao col-md-4">
+                <i class="fas fa-bullseye iconMvv"></i>
+                <h1>Missão</h1>
+                <p class="">Promover alegria e animação às pessoas, com foco na satisfação dos clientes, através de produtos de qualidade com um custo acessível.
+
+                </p>
+            </div>
+
+            <div class="visao col-md-4">
+                <i class="fas fa-eye iconMvv"></i>
+                <h1>Visão</h1>
+                <p class="">Ser a principal fornecedora de produtos dentro do mundo Geek, com peças originais e diversificadas.
+                </p>
+            </div>
+
+            <div class="valores col-md-4">
+                <i class="fas fa-star iconMvv"></i>
+                <h1>Valores</h1>
+                    <ul>
+                        <li>Ética com nossos clientes;</li>
+                        <li>Compromisso em entregar o melhor;</li>
+                        <li>Respeito social;</li>
+                        <li>Lealdade ao nosso consumidor;</li>
+                        <li>Qualidade em tudo que fazemos.</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+
+<!--Link do meu JS-->
+<script src="js/sobreNos.js"></script>
+</body>
+</html>

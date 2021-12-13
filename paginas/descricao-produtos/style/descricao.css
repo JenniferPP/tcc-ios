@@ -1,0 +1,134 @@
+/*Imagem do produto*/
+.imgInfo img{
+    border:1px solid #080705;
+    border-radius: 10px;
+    cursor: zoom-in;
+    width: auto;
+}
+/*Informações do produto*/
+    /*Nome da peça*/
+
+.nomePeca p{
+    text-align: left;
+    margin-bottom: 60px;
+}
+    /*Tamanhos*/
+.txtTamanhos, .txtCores{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tamanhos{
+    text-align: center;
+    float: left;
+}
+.tamanhos a{
+    border-radius: 100%;
+    color: #fff;
+    background-color: #F2545B;
+    font-size: 20px;
+}
+.tamanhos .btn{
+    margin: 0 15px;
+}
+.tamanhos .btn .P{
+    padding: 10px 18px 10px 18px;
+}
+.tamanhos .btn .M{
+    padding: 10px 15px 10px 15px;
+}
+.tamanhos .btn .G{
+    padding: 10px 15px 10px 15px;
+}
+.tamanhos .btn .GG{
+    padding: 10px 8px 10px 8px;
+}
+
+.tamanhos .btn{
+    margin: 0 15px;
+}
+
+.tamNumber{
+    padding: 10px 11px;
+}
+
+.tamanhos a:hover{
+    background-color: #031D44;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+    /*Cores da camiseta*/
+.cores{
+    margin-top: 40px;
+    text-align: center;
+}
+.cor{
+    margin-top: -30px;
+}
+.btnCor{
+    padding: 25px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+
+.azulClaro{
+    background-color: #247BA0;
+}
+.azulEscuro{
+    background-color: #031D44;
+}
+.preto{
+    background-color: #080705;
+}
+
+    /*Botões de compra*/
+.btnCompras{
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.compras .btnSacola{
+    padding: 5px 15px;
+    border: 1px solid #F2545B;
+    background-color: transparent;
+    color: #F2545B;
+}
+.compras .btnSacola:hover{
+    background-color: #F2545B;
+    color: #fff;
+    transition: all 0.3s;
+}
+.compras .btnComprar{
+    padding: 5px 30px;
+    background-color: #FFBC42;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+.compras .btnComprar:hover{
+    background-color: #ffa600;
+    transition: all 0.3s;
+}
+
+.descricao{
+    border-bottom: 1px solid #c4c4c4 ;
+
+}
+.tituloDescricao{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tituloTab{
+    text-align: center;
+    color: #031D44;
+    margin: 30px 0 25px 0;
+    font-weight: 600;
+}
+
+
+
