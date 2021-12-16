@@ -1,3 +1,4 @@
+
 .formulario{
     width: 400px;
     padding: 30px;
@@ -53,4 +54,31 @@ input[type=submit]{
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
+}
+.Enviar{
+    text-align: center; 
+}
+.btnEnviar{
+    background-color: #f2f2f2;
+    color: #a1a1a1;
+    padding: 10px 25px; 
+    border-radius: 30px;
+    margin: 50px 0 20px 0;
+}
+.btnEnviar:hover{
+    background-color: #c7c7c7;
+    color: #7c7c7c;
+    text-decoration: none;
+}
+.etapas{
+    background-color: #031D44;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.etapas button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
 }
