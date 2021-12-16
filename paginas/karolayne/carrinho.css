@@ -6,6 +6,15 @@
     background-color: #031D44;
     padding: 10px;
 }
+
+/*Botões das etapas*/
+
+.etapas{
+    background-color: #031D44;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
 .produto, .endereco, .pagamento{
     text-align: center;
 }
@@ -16,7 +25,14 @@
     font-size: 18px;
     padding: 20px;
 }
-.produto a{
+
+.etapas button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.produto button{
     font-weight: 600;
     color: #FFBC42;
 }
@@ -28,6 +44,9 @@
     margin-bottom: 80px;
 }
 
+.infoTitu{
+    margin-top: 50px;
+}
 .infoTitu, .infoProduto{
     text-align: center;
     font-size: 18px;
@@ -47,8 +66,7 @@
     margin-top: 100px;
     font-size: 20px;
 }
-
-.subtotal, .entrega, .total{
+.subtotal,.entrega,.total{
     font-size: 20px;
     margin-top: 20px;
     border-bottom: 1px solid #080705;
@@ -64,3 +82,8 @@
 .proximaEtapa{
     float: right;
 }
+
+.proximaEtapa{
+    float: right;
+}
+
