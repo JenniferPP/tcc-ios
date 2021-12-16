@@ -15,7 +15,8 @@
     width: 100%;
     position: fixed;
     z-index: 10;
-    margin-bottom: 100ppx;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
 }
 /*Poup login*/
 .popbox {
@@ -62,6 +63,16 @@
 .btnEntrar{
     background-color: #F2545B;
     color: white
+}
+.btnEntrar:hover{
+    background-color: #031D44;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.btnCadastrar:hover{
+    color: #031D44;
+    text-decoration: none;
+    transition: all 0.5s;
 }
 
 /*Login, sacola de compras, favoritos e perfil*/
