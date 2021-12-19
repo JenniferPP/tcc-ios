@@ -1,8 +1,14 @@
-<<<<<<< HEAD
 /*Botões das etapas*/
 
-=======
->>>>>>> bf289490bea6394b7d170d07ccb73e1559cfa1bc
+.etapas{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #031D44;
+    padding: 10px;
+}
+
+/*Botões das etapas*/
+
 .etapas{
     background-color: #031D44;
     padding: 10px;
@@ -12,6 +18,14 @@
 .produto, .endereco, .pagamento{
     text-align: center;
 }
+.etapas a{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
 .etapas button{
     background-color: transparent;
     color: white;
@@ -26,9 +40,10 @@
 /*Anuncio de frete gratis*/
 .FreteGratis{
     margin-top: 80px;
-    margin-bottom: 100px;
     text-align: center;
+    margin-bottom: 80px;
 }
+
 .infoTitu{
     margin-top: 50px;
 }
@@ -57,6 +72,18 @@
     border-bottom: 1px solid #080705;
 }
 
+.etapasProxCont{
+    text-align: center;
+}
+
+.etapasProxCont a{
+    text-align: center;
+}
 .proximaEtapa{
     float: right;
 }
+
+.proximaEtapa{
+    float: right;
+}
+

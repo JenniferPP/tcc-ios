@@ -1,4 +1,6 @@
 // Campo do CPF
-$( "#cpf" ).keypress(function() {
-    $(this).mask('000.000.000-00');
+var cpf = document.querySelector("#cpf");
+
+cpf.addEventListener("blur", function(){
+   if(cpf.value) cpf.value = cpf.value.match(/.{1,3}/g).join(".").replace(/\.(?=[^.]*$)/,"-");
 });

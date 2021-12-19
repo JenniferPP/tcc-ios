@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="x-UA-compatible" content="IE=edge">
@@ -92,17 +91,16 @@
 
     <!------------------FIM DO MENU EM HTML-->
 
-        
         <!--corpo  da página-->
         <div class="row etapas mr-0">
                 <div class="col-4 produto">
-                   <button>PRODUTO</button>
+                   <a href="#">PRODUTO</a> 
                 </div>
                 <div class="col-4 endereco"> 
-                  <button>ENDEREÇO </button>
+                        <a href="#">ENDEREÇO</a> 
                 </div>   
                 <div class="col-4 pagamento">
-                   <button>PAGAMENTO</button>
+                        <a href="#">PAGAMENTO</a> 
                 </div>  
         </div>
         <section>
@@ -122,6 +120,14 @@
 
                         <div class="titulos col-md-3">
                                 <p><strong>Tamanho</strong></p>
+
+                        </div>
+
+                        <div class="titulos col-md-3">
+                                <p><strong>Quantidade</strong></p>
+                        </div>
+
+                        <div class="titulos col-md-3">
                         </div>
 
                         <div class="titulos col-md-3">
@@ -146,12 +152,41 @@
                         </div>
                         <div class="quantidade col-md-3">
                                 <form>
+
+                                        <input type="number" name="quantidade" value="1" min="1" max="20">    
                                         <input type="number" name="quantidade" min="1" max="20"value="1">    
                                 </form>
                         </div>
                         <div class="infoPreco col-md-3">
                                 <p> R$35,00</p>
                         </div>
+
+                </div>
+                
+                <!--Segunda linha-->
+                <div class="infoProduto  linha1 row mr-0">
+                        <div class="peca col-md-3">
+                                <div class="infoProd">
+                                        <img src="../img/produtos/moletons/masculinos/moletom-itachi.png" alt="produto1" height="300px">
+                                </div>
+                        </div>
+                        <div class="infoTamanho col-3">
+                                <p>GG</p>
+                        </div>
+                        <div class="quantidade col-md-3">
+                                <form>
+                                        <input type="number" name="quantidade" value="1" min="1" max="20">    
+                                </form>
+                        </div>
+                        <div class="infoPreco col-md-3">
+                                <p> R$100,00</p>
+                        </div>
+
+                </div>
+        </section>
+        
+        
+        <section">
 
                 </div>
                 
@@ -183,26 +218,28 @@
                         <form class="form-inline">
                                 <div class="form-group mb-2">
                                   <label for="staticEmail2" class="sr-only">Cupom </label>
-                                  <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Cupom de desconto">
+                                  <input type="text" readonly class="form-control-plaintext" value="Cupom de desconto">
                                 </div>
                                 <div class="form-group mx-sm-3 mb-2">
                                   <label for="inputPassword2" class="sr-only">Cupom de desconto</label>
                                   <input type="teste" class="form-control" id="inputPassword2" placeholder="Insira seu cupom">
                                 </div>
                                 <button type="submit" class="btn btn-primary mb-2">Inserir</button>
-                              </form>
+                        </form>
                 </div>
         </section>
         
         <section class="container">
                 <div class="resumo row mr-0">
                         <div class="subtotal col-md-6">
+                                <p><strong>Subtotal:</strong> R$135,00</p>
                         <p><strong>Subtotal:</strong> R$135,00</p>
                         
                         </div>
                 </div>
                 <div class="entrega row mr-0">
                         <div class="entregar col-md-6">
+                         <p><strong>Entrega:</strong> R$14,00</p>
                          <p><strong>Entrega:</strong> R$14,00 </p>
                         </div>
                         <div class="calcular col-md-6">
@@ -218,22 +255,26 @@
                 </div>
         
                 <div class="total row mr-0">
+                        <div class="campoTotal col-md-6">
+                                <p><strong>Total:</strong> R$149,00</p>
                         <div class="campoTotal col-md-12">
                                 <p><strong>Total: </strong> R$149,00</p>
                         
                         </div>
                 </div>
         </section>
+
+        <br><br><br>
         <br>
         <br>
         <br>
-        <br>
+
         
         <section>
-        <div class="etapas row mr-0">
-                <div class="continComprando col-md-6"> <button><i class="fas fa-arrow-left"></i> Continuar comprando </button></div>
+        <div class="etapasProxCont row mr-0">
+                <div class="continComprando col-md-6"><a href="#"><i class="fas fa-arrow-left"></i> Continuar comprando</a></div>
 
-                <div class="proximaEtapa col-md-6"> <button><i class="fas fa-arrow-right"></i> Proximo </button></div>
+                <div class="proximaEtapa col-md-6"> <a href="#"><i class="fas fa-arrow-right"></i> Proximo</a></div>
         </div>
         </section>
         

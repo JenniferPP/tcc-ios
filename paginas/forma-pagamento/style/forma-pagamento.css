@@ -1,0 +1,83 @@
+/*Botões das etapas*/
+
+.etapas{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.produto, .endereco, .pagamento{
+    text-align: center;
+}
+.etapas a{
+    background-color: transparent;
+    color: #8b8b8b;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+}
+.etapas a:hover{
+    font-weight: 600;
+    color: #585858;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.pagamento a{
+    font-weight: 600;
+    color: #FFBC42;
+}
+.pagamento a:hover{
+    color: #FFBC42;
+}
+
+/* Formas de pagamento */
+.formaDePag .txtPag p {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #080705;
+}
+.paga .pagame{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #c4c4c4;
+    padding:0 0 10px 30px;
+    margin-left: 20px;
+
+}
+.txtPag{
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.paga p{
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: -1px;
+
+}
+
+.paga .pagIcon{
+    color: #808080;
+    font-size: 50px;
+}
+.resumo .compraResumo{
+    float: right;
+    border: 1px solid #c4c4c4;
+    padding: 50px 10px 50px 20px ;
+    border-radius: 10px;
+    width: 350px;
+}
+.resumo .tituResumo{
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-size: 15px;
+}
+.resumo .precoText{
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+

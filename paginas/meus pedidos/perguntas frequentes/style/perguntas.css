@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar-perguntas {
+     list-style: none; 
+    width: 400px;
+    float: left;
+    border: 1px solid #c4c4c4;
+    margin: 10px 15px 0px 15px;
+     padding: 1rem; 
+    padding-bottom: 8px solid #c4c4c4;  
+    height: 105rem;
+    border-radius: 10px;
+}
+.sidebar-perguntas ul li{
+    border-bottom: 1px solid #c4c4c4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-perguntas ul li .itemperfil { 
+    text-decoration: none;
+    color: #080705;
+    font-size: 18px;
+    text-align: center;
+    margin: 1rem;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    line-height: 40px;
+       display: block;
+       transition: all 0.4s ease;
+} 
+.titulo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-dark {
+    color: #080705;
+    font-weight: 800;
+    margin: 1.5rem;
+    padding: 20px;
+}
+.footer nav-bar {
+    height: 145;
+    color: #ffbc42;
+    bottom: 5px;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+    font-weight: 800; 
+}
+.footer:hover  {
+    color: #080705;
+    font-weight: 400;
+    padding: 5px;
+    text-align: left;
+    
+
+}
+.maça{
+    border-radius: 1rem;
+    text-align: left;
+}
