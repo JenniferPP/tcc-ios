@@ -1,84 +1,63 @@
+/*estilo do formúlario*/
+.field {
+      padding: 50px;
+      margin-left: 20px;
+}
 
-.formulario{
-    width: 400px;
-    padding: 30px;
-    border:1px solid #ccc;
+.field label {
+      font-size: 16px;
+      font-weight: bold;
+
 }
-.formulario p{
-    width: 100%;
-    font-size: 1.5em;
-}
-.field{
-    width: 20%;
-    margin: 15px 0;
-}
-.field label, 
-.field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-.radiobox label{
-    width: auto;
-    display: inline-block;
-}
-input[type=text],
-input[type=email],
-textarea{
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
+
+.field input {
+    height: 40px;
+    padding: 5px 0 5px 10px;
+    font-size: 18px;
+    color: #031d44;
+    border: 1px solid #c4c4c4;
+    background-color: #f4f4f4;
+    border-radius: 7px;
     outline: none;
+    width: 90%;
 }
-input#nao{
-    margin-left: 30px;
-}
-textarea{
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
-input[type=submit]{
-    display: block;
-    background-color: #ccc;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
+
+.radiobox input {
+    height: 15px;
     width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
+
 }
-.Enviar{
-    text-align: center; 
+
+.Enviar {
+       text-align: center;
+
 }
-.btnEnviar{
-    background-color: #f2f2f2;
-    color: #a1a1a1;
-    padding: 10px 25px; 
-    border-radius: 30px;
-    margin: 50px 0 20px 0;
+
+.Enviar a {
+       background-color:#247ba0;
+       color: #fff;
+       padding: 10px 25px;
+       border-radius: 30px;
 }
-.btnEnviar:hover{
-    background-color: #c7c7c7;
-    color: #7c7c7c;
+
+.Enviar a:hover {
+    background-color:#031d44;
+    color: #fff;
+    transition: all 0.5s;
     text-decoration: none;
 }
-.etapas{
-    background-color: #031D44;
-    padding: 10px;
+
+.etapasProxCont{
     text-align: center;
-    margin-top: 20px;
 }
-.etapas button{
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 20px;
+
+.etapasProxCont a{
+    text-align: center;
+}
+.proximaEtapa{
+    float: right;
+}
+
+.proximaEtapa{
+    float: right;
 }

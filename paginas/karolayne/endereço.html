@@ -98,39 +98,46 @@
 <br>
  <article>
       <form>
-        <div class="field">
-            <label for="nome">Cep:</label>
-            <input type="text" id="nome" name="cep" placeholder="Digite seu cep" required>
-        </div>
-        
-        <div class="field">
-            <label for="bairro">Bairro:</label>
-            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Bairro">
-        </div>
+          <div class="linha1 row mr-0>">
+            <div class="field col-md-3">
+                <label for="cep">Cep:</label>
+                <br>
+                <input type="text" id="cep" name="cep" placeholder="Digite seu cep" required>
+            </div>
+            
+            <div class="field col-md-3">
+                <label for="bairro">Bairro:</label>
+                <br>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Bairro">
+            </div>
+    
+            <div class="field col-md-3">
+                <label for="rua">Rua:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Digite sua Rua" required>
+            </div> 
+          </div>
 
-        <div class="field">
-            <label for="rua">Rua:</label>
-            <input type="email" id="email" name="email" placeholder="Digite sua Rua" required>
-        </div> 
-        <div class="field">
+       <div class="linha2 row mr-0">
+        <div class="field col-md-3">
             <label for="numero">Número:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu número" required>
+            <br>
+            <input type="email" id="numero" name="email" placeholder="Digite seu número" required>
         </div>             
-        <div class="field">
-            <label for="comprimento">comprimento:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu Comprimento" required>
+        <div class="field col-md-3">
+            <label for="complemento">Complemento:</label>
+            <br>
+            <input type="email" id="complemento" name="email" placeholder="Digite seu Comprimento" required>
         </div>
+       </div>
+      <br>
+      <br>
+
         <h2>  Opções de envio</h2>
 
         <div class="field radiobox">
-            <span>Pac</span>
-            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
-            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
-        </div>
-        <div class="field radiobox">
-            <span>Sedex</span>
-            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
-            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Pac</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Sedex</label>
         </div>
 
         <br>
@@ -140,7 +147,7 @@
                 
         <div class="total row mr-0">
             <div class="campoTotal col-md-12">
-                    <p><strong>Total:</strong>R$255,00</p>
+                    <p><strong>Total:</strong>R$14,90</p>
             
             </div>
         </div>
@@ -152,25 +159,22 @@
             </div>
             <br> 
             <br>
-            
-            <div class="etapas row mr-0">
-                    <div class="continComprando col-md-6"> <button><i class="fas fa-arrow-left"></i>Volta </button></div>
-    
-                    <div class="proximaEtapa col-md-6"> <button><i class="fas fa-arrow-right"></i> Finalizar</button></div>
-            </div>
-            
-    </form>
-<br>
-
-
 </form>
 </article>
+
+<section>
+    <div class="etapasProxCont row mr-0">
+            <div class="continComprando col-md-6"><a href="#"><i class="fas fa-arrow-left"></i> Continuar comprando</a></div>
+
+            <div class="proximaEtapa col-md-6"> <a href="#"><i class="fas fa-arrow-right"></i> Proximo</a></div>
+    </div>
+    </section>
 
 
   <!--Links Bootstrap-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js"></script>
 
 
 </body>
