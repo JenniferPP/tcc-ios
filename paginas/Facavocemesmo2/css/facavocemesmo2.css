@@ -1,0 +1,58 @@
+.tamamhos{
+text-align: center;
+}
+
+h4{
+    color: #080705;
+    margin: 10px 40px;
+    font-size: 20px;
+}
+
+.tamanhos .btn button{
+padding: 20px;
+font-size: 18px;
+background-color: #f2545b;
+border-radius: 100px;
+font-weight: 600;
+color: #fff;
+border: none;
+}
+
+.cores{
+    text-align: center;
+}
+.azul{
+    padding: 30px;
+    border: none;
+    background-color: #247ba0;
+    border-radius: 50px;
+}
+
+.azulEscuro{
+    padding: 30px;
+    border: none;
+    background-color: #031d44;
+    border-radius: 50px;
+}
+
+.preto{
+    padding: 30px;
+    border: none;
+    background-color: #080705;
+    border-radius: 50px;
+}
+
+.imgCamiseta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btnEnviar{
+    background-color: #031d44;
+    padding: 10px 35px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}

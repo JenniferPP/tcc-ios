@@ -1,0 +1,61 @@
+.faca{
+    text-align: center;
+}
+
+.txtFaca .txtPersonalize{
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    background-color: #ffbc42;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.txtEscolha{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #080705;
+}
+
+.suaArte{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.suaArte img{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+.genero button{
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid #031d44;
+    background-color: transparent;
+    color: #031d44;
+}
+
+.genero button:hover{
+    background-color: #031d44;
+    color: #fff;
+    transition: all 0.3s;
+}
+    
+ .btn{
+     text-align: center;
+     margin-top: 15px;
+ }
+.btnPersonalizar button{
+    padding: 7px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #247ba0;
+    color: #fff;
+    border: none;
+}
