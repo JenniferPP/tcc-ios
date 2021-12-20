@@ -116,71 +116,234 @@
             <p>Forma de pagamento</p>
         </div>
         <div class="formaDePag row mr-0">
-            <div class="paga col-md-5">
+
+            <!-- Formas de pagamento -->
+            <div class="paga col-md-7">
 
                 <!-- Pagamento em pix -->
                 <div class="pagPix">
-                    <p>
-                        <button class="btn" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
-                            <i class="fas fa-money-check credito pagIcon"></i>
-                        </button>
-                    </p>
-
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
-                          <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                          </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="cardPag">
+                                <div class="cardTopo" id="headingOne">
+                                <p> PIX </p>
+                                <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fas fa-money-check credito pagIcon"></i>
+                                </button> 
+                                </div>
+                            
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                  <div class="card-body">
+                                        <div class="chavePix">
+                                            <p>Copie o código de pagamento</p>
+                                            <br>
+                                            <input type="text" value="12389fda-1f2d-f14e-da6e-1f2d-f14e-da6e-12389fda-1f2d-f14e-da6e-1f2d-f14e-da6e-2d5e3a7t2s4e23cad"  id="chavePix" name="chavePix" readonly><br>
+                                            <button id="copiar" onclick="copiar()">Copiar Código <i class="far fa-clone"></i></button>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
+                <br><br>
                 
+                <!-- Pagamento cartão de crédito -->
+                <div class="pagCredito">
+                    <div class="cardPag">
+                        <div class="cardTopo" id="headingTwo">
+                            <p> Cartão de crédito </p>
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fas fa-credit-card credito pagIcon"></i>
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <div class="cartaoCredito">
+                                <form action="#" class="formCredito">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="numCartao">Número do Cartão</label><br>
+                                            <input type="text" placeholder="Digite o número do cartão" name="numCartao" id="numCartao">
+                                        </div>
+                                    </div>
 
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="titularCartao">Titular</label><br>
+                                            <input type="text" placeholder="Nome inserido no cartão" name="titularCartao" id="titularCartao" maxlength="16">
+                                        </div>
+                                    </div>
 
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="mesValidade">Mês de validade</label><br>
+                                            <select name="mesValidade" id="mesValidade">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="01">11</option>
+                                                <option value="12">12</option>                                              
+                                            </select>
+                                        </div>
 
-                <!-- Pagamento em pix -->
-                <!-- <div class="pix pagame">
-                    <div class="textPag">
-                        <a href="#"><p class="pixTxt pagText">PIX</p></a>
-                    </div>
-                    <div class="iconPag">
-                        <a href="#"><i class="fas fa-money-check credito pagIcon"></i></a>
+                                        <div class="col-6">
+                                            <label for="anoValidade">Ano de validade</label><br>
+                                            <select name="anoValidade" id="anoValidade">
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2027">2027</option>
+                                                <option value="2028">2028</option>
+                                                <option value="2029">2029</option>
+                                                <option value="2030">2030</option>
+                                                <option value="2031">2031</option>                                               
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="cvv">Código(CVV)</label><br>
+                                            <input type="text" name="cvv" id="cvv"placeholder="Inisra o código de segurança" maxlength="3">
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="parcelas">Parcelas</label><br>
+                                            <select name="parcelas" id="parcelas" aria-placeholder="Selecione as parcelas">
+                                                <option value="1x">1x <span>R$155,00</span></option>
+                                                <option value="2x">2x <span>R$155,00</option>
+                                                <option value="3x">3x <span>R$155,00</option>
+                                                <option value="4x">4x <span>R$155,00</option>
+                                                <option value="5x">5x <span>R$155,00</option>                                          
+                                            </select>
+                                        </div>                        
+                                    </div>
+                                    <button class="btnConfirmar">Inserir cartão <i class="far fa-check-circle"></i></button>
+                                </form>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Pagamento em cartão 
-                <div class="cartao pagame">
-                    <div class="textPag">
-                        <a href="#"><p class="creditoTxt pagText">Crédito</p></a>
-                    </div>
-                    <div class="iconPag">
-                       <a href="#"><i class="fas fa-credit-card credito pagIcon"></i></a>
+
+                <!-- Pagamento cartão débito -->
+                <div class="pagCredito">
+                    <div class="cardPag">
+                        <div class="cardTopo" id="headingThree">
+                            <p> Cartão de débito </p>
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fas fa-credit-card credito pagIcon"></i>
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <div class="cartaoCredito">
+                                <form action="#" class="formDebito">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="numCartao">Número do Cartão</label><br>
+                                            <input type="text" placeholder="Digite o número do cartão" name="numCartao"  id="numCartao" maxlength="16">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="titularCartao">Titular</label><br>
+                                            <input type="text" placeholder="Nome inserido no cartão" name="titularCartao" id="titularCartao">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="mesValidade">Mês de validade</label><br>
+                                            <select name="anoValidade" id="anoValidade">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="01">11</option>
+                                                <option value="12">12</option>                                              
+                                            </select>
+                                            
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="anoValidade">Ano de validade</label><br>
+                                            <select name="mesValidade" id="mesValidade">
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2027">2027</option>
+                                                <option value="2028">2028</option>
+                                                <option value="2029">2029</option>
+                                                <option value="2030">2030</option>
+                                                <option value="2031">2031</option>                                               
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="cvv">Código(CVV)</label><br>
+                                            <input type="text" name="cvv" id="cvv" maxlength="3" placeholder="Inisra o código de segurança">
+                                        </div>                 
+                                    </div>
+                                    <button class="btnConfirmar">Inserir cartão <i class="far fa-check-circle"></i></button>
+                                </form>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Pagamento em boleto 
-                <div class="cartao pagame">
-                    <div class="textPag">
-                        <a href="#"><p class="boletoTxt pagText">Boleto</p></a>
-                    </div>
-                    <div class="iconPag">
-                        <a href="#"><i class="fas fa-money-check-alt credito pagIcon"></i></a>
+                <!-- Pagamento Boleto -->
+                <div class="pagCredito">
+                    <div class="cardPag">
+                        <div class="cardTopo" id="headingFour">
+                            <p> Boleto </p>
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="fas fa-money-check-alt credito pagIcon"></i>
+                            </button>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <div class="boleto">
+                                <p class="txtBoleto"><strong>Nº do Pedido:</strong> 1179200837264-200 <br>
+                                    <strong>Vencimento: </strong> 10/01/2022 <br>
+                                    <strong>Valor do pedido: </strong>R$ 155,55
+                                </p>
+
+                                <input type="text" name="codigoBoleto" id="codigoBoleto" value="0019000009 02853927024 00085831170 5 5738000001500">
+                                <button id="copiar" onclick="copiar()"> Copiar Código <i class="far fa-clone"></i></button>
+                                <a href="Boleto.pdf">Downlod Boleto</a>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Pagamento em débito 
-                <div class="cartao pagame">
-                    <div class="textPag">
-                        <a href="#"><p class="debitoTxt pagText">Débito</p></a>
-                    </div>
-                    <div class="iconPag">
-                        <a href="#"><i class="far fa-credit-card credito pagIcon"></i></a>
-                    </div>
-                </div>-->
             </div> 
 
             <!-- Resumo do pedido -->
-            <div class="resumo col-md-6">
+            <div class="resumo col-md-4">
                 <div class="compraResumo">
                     <p class="tituResumo">Resumo do pedido</p>
                     <div class="preco">
@@ -199,6 +362,10 @@
                     <div class="preco">
                         <p class="txtResumo total"><strong>Total:</strong><span class="precoText">R$35,00</span></p>
                     </div>
+                </div>
+                <br><br>
+                <div class="btnConfirma">
+                    <a href="#" class="confCompra">Confirmar compra</a>
                 </div>
             </div>
         </div>
@@ -293,6 +460,7 @@
 
     <!--Link do JS-->
     <script src="../menu/menu.js"></script>
+    <script src="./js/forma-pagamento.js"></script>
 
     <!--Link do Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

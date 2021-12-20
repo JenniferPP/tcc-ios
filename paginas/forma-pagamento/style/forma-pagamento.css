@@ -29,44 +29,113 @@
 .pagamento a:hover{
     color: #FFBC42;
 }
-
-/* Formas de pagamento */
-.formaDePag .txtPag p {
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #080705;
-}
-.paga .pagame{
-    margin-bottom: 50px;
-    border-bottom: 1px solid #c4c4c4;
-    padding:0 0 10px 30px;
-    margin-left: 20px;
-
-}
 .txtPag{
     text-align: center;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    font-size: 22px;
-}
-.paga p{
-    color: #808080;
-    font-size: 16px;
-    margin-bottom: -1px;
-
+    margin: 20px 0 80px 0; 
+    font-size: 20px;
 }
 
-.paga .pagIcon{
-    color: #808080;
+/* Formas de pagamento */
+.cardPag{
+    background-color: none;
+    border-bottom: 1px solid #c4c4c4;
+    text-align: center;
+    padding: 20px;
+}
+.cardPag p{
+    color:#808080;
+    font-weight: bold;
+}
+.cardPag button{
     font-size: 50px;
+    background-color: none;
+    color: #808080;
 }
+.card-body{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #F2F3F5;
+    border: 1px solid #c4c4c4;
+    border-radius: 7px;
+}
+.cardPag label{
+    font-size: 16px;
+    color: #080705;
+    margin-top: 15px;
+}
+.cardPag input{
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+}
+.card-body button{
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background-color: #247BA0;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    /* PIX */
+.card-body .chavePix{
+    margin-top: 10px;
+}
+.card-body .chavePix p{
+    font-weight: 500;
+    color: #080705;
+    font-size: 16px;
+
+}
+
+/* Cartão de crédito e Débito*/
+.cardPag .cartaoCredito{
+    text-align: left;
+}
+
+.cardPag .cartaoCredito select{
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+}
+
+.cardPag .boleto button{
+    margin-left: -10%;
+    width: 250px;
+    margin-right: 100px;
+}
+.cardPag .boleto a{
+    color: #247BA0;
+    font-weight: bold;
+}
+.cardPag .boleto a:hover{
+    text-decoration: none;
+    color: #031D44;
+    transition: all 0.5s;
+}
+
+/* Resumo do pedido */
 .resumo .compraResumo{
     float: right;
     border: 1px solid #c4c4c4;
     padding: 50px 10px 50px 20px ;
     border-radius: 10px;
     width: 350px;
+    margin-bottom: 50px;
 }
 .resumo .tituResumo{
     text-align: center;
@@ -77,7 +146,23 @@
     float: right;
     margin-right: 20px;
 }
-
-
-
-
+    
+    /* Botão confirmar compra */
+.resumo .btnConfirma{
+    text-align: center;
+} 
+.resumo a{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: #FFBC42;
+    color: white;
+    border-radius: 10px;
+}
+.resumo a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #ffa600;
+    transition: all 0.5s;
+}
