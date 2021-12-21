@@ -18,54 +18,61 @@ body {
     margin: 10px 15px 0px 15px;
      padding: 1rem; 
     padding-bottom: 8px solid #c4c4c4;  
-    height: 105rem;
+    height: 225vh;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
 }
-.sidebar-perguntas ul li{
-    border-bottom: 1px solid #c4c4c4;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .sidebar-perguntas ul li .itemperfil { 
     text-decoration: none;
     color: #080705;
     font-size: 18px;
     text-align: center;
     margin: 1rem;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    line-height: 40px;
-       display: block;
-       transition: all 0.4s ease;
+     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+     line-height: 40px;
+     display: block;
+     transition: all 0.4s ease;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 } 
 .titulo {
     font-size: 1.5rem;
     text-align: center;
+    line-height: 40px;
+    display: block;
+    transition: all 0.4s ease;
 }
 
 .text-dark {
     color: #080705;
-    font-weight: 800;
+    font-weight: 400;
     margin: 1.5rem;
     padding: 20px;
 }
 .footer nav-bar {
+    text-decoration: none;
     height: 145;
     color: #ffbc42;
     bottom: 5px;
     position: fixed;
     width: 90%;
-    text-align: center;
-    font-weight: 800; 
+    text-align: center;    
 }
-.footer:hover  {
+.none{
+    text-decoration: none;
+    color: #474747;
+}
+.footer{
     color: #080705;
     font-weight: 400;
     padding: 5px;
     text-align: left;
-    
-
-}
+    text-decoration: none;
+} 
 .maça{
     border-radius: 1rem;
     text-align: left;
