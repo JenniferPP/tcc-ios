@@ -67,7 +67,7 @@
                         <li class="active"><a href="../Home/index.html">HOME</a></li>
                         <li><a href="../Sobre-Nos/sobreNos.html">SOBRE NÓS</a></li>
                         <li>
-                            <a class="prodBtn" href="#">PRODUTOS
+                            <a class="prodBtn" href="##produtos">PRODUTOS
                                 <span class="fas fa-caret-down only"></span>
                             </a>
                             <ul class="prod-show">
@@ -92,18 +92,25 @@
     <!------------------FIM DO MENU EM HTML-->
 
         <!--corpo  da página-->
-        <div class="row etapas mr-0">
-                <div class="col-4 produto">
-                   <a href="#">PRODUTO</a> 
-                </div>
-                <div class="col-4 endereco"> 
-                        <a href="#">ENDEREÇO</a> 
-                </div>   
-                <div class="col-4 pagamento">
-                        <a href="#">PAGAMENTO</a> 
-                </div>  
-        </div>
         <section>
+                <div class="row etapas mr-0">
+                    <!-- Botão produtos -->
+                    <div class="col-4 produto">
+                       <a href="./carrinho.html">PRODUTO</a> 
+                    </div>
+            
+                    <!-- Botão endereço -->
+                    <div class="col-4 endereco"> 
+                            <a href="../pagamento/endereco.html">ENDEREÇO</a> 
+                    </div>
+
+                    <!-- Botão pagamento -->
+                    <div class="col-4 pagamento">
+                            <a href="../pagamento/forma-pagamento.html">PAGAMENTO</a> 
+                    </div>  
+                </div>
+        </section>
+
                 <div class="FreteGratis row mr-0">
                         <div class="anucioFrete col-12">
                                 <h4> Aproveite Frete Gratis apartir de R$250,00 </h4>
@@ -128,13 +135,6 @@
                         </div>
 
                         <div class="titulos col-md-3">
-                        </div>
-
-                        <div class="titulos col-md-3">
-                                <p><strong>Quantidade</strong></p>
-                        </div>
-
-                        <div class="titulos col-md-3">
                                 <p><strong>Preço</strong></p>
                         </div>
                         
@@ -152,9 +152,7 @@
                         </div>
                         <div class="quantidade col-md-3">
                                 <form>
-
-                                        <input type="number" name="quantidade" value="1" min="1" max="20">    
-                                        <input type="number" name="quantidade" min="1" max="20"value="1">    
+                                        <input type="number" name="quantidade" value="1" min="1" max="20">       
                                 </form>
                         </div>
                         <div class="infoPreco col-md-3">
@@ -190,26 +188,6 @@
 
                 </div>
                 
-                <!--Segunda linha-->
-                <div class="infoProduto  linha2 row mr-0">
-                        <div class="peca col-md-3">
-                                <div class="infoProd">
-                                        <img src="../img/produtos/moletons/masculinos/moletom-itachi.png" alt="produto1" height="300px">
-                                </div>
-                        </div>
-                        <div class="infoTamanho col-3">
-                                <p>GG</p>
-                        </div>
-                        <div class="quantidade col-md-3">
-                                <form>
-                                        <input type="number" name="quantidade" min="1" max="20"value="1">    
-                                </form>
-                        </div>
-                        <div class="infoPreco col-md-3">
-                                <p> R$100,00</p>
-                        </div>
-
-                </div>
         </section>
         
         
@@ -231,35 +209,28 @@
         
         <section class="container">
                 <div class="resumo row mr-0">
-                        <div class="subtotal col-md-6">
+                        <div class="subtotal col-md-12">
                                 <p><strong>Subtotal:</strong> R$135,00</p>
-                        <p><strong>Subtotal:</strong> R$135,00</p>
-                        
                         </div>
                 </div>
                 <div class="entrega row mr-0">
                         <div class="entregar col-md-6">
                          <p><strong>Entrega:</strong> R$14,00</p>
-                         <p><strong>Entrega:</strong> R$14,00 </p>
                         </div>
                         <div class="calcular col-md-6">
                          <form class="Calcular row mr-0">
                                 <div class="form-group mx-sm-3 mb-2">
                                         <label for="inputPassword2" class="sr-only">Calcular</label>
                                         <input type="teste" class="form-control" id="inputPassword2" placeholder="Calcular">
-                                      </div>
-                                      <button type="submit" class="btn btn-primary mb-2">Calcular</button>
-                        
+                                </div>
+                                <button type="submit" class="btn btn-primary mb-2">Calcular</button>
                          </form>
                         </div>
                 </div>
         
                 <div class="total row mr-0">
                         <div class="campoTotal col-md-6">
-                                <p><strong>Total:</strong> R$149,00</p>
-                        <div class="campoTotal col-md-12">
-                                <p><strong>Total: </strong> R$149,00</p>
-                        
+                                <p><strong>Total:</strong> R$149,90</p>
                         </div>
                 </div>
         </section>
@@ -272,9 +243,9 @@
         
         <section>
         <div class="etapasProxCont row mr-0">
-                <div class="continComprando col-md-6"><a href="#"><i class="fas fa-arrow-left"></i> Continuar comprando</a></div>
+                <div class="continComprando col-md-6"><a href="../Home/index.html"><i class="fas fa-arrow-left"></i> Continuar comprando</a></div>
 
-                <div class="proximaEtapa col-md-6"> <a href="#"><i class="fas fa-arrow-right"></i> Proximo</a></div>
+                <div class="proximaEtapa col-md-6"> <a href="../pagamento/endereco.html"><i class="fas fa-arrow-right"></i> Proximo</a></div>
         </div>
         </section>
         
@@ -284,7 +255,10 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js"></script>
-    <script src="../menu/menu.js"></script>
+        
+        <!--Link do JS-->
+        <script src="../menu/menu.js"></script>
+        <script src="./js/forma-pagamento.js"></script>
 
 
 </body>

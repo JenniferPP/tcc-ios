@@ -1,16 +1,7 @@
 /*Botões das etapas*/
 
 .etapas{
-    text-align: center;
-    margin-top: 30px;
-    background-color: #031D44;
-    padding: 10px;
-}
-
-/*Botões das etapas*/
-
-.etapas{
-    background-color: #031D44;
+    border-bottom: 1px solid #dddddd;
     padding: 10px;
     text-align: center;
     margin-top: 30px;
@@ -20,22 +11,30 @@
 }
 .etapas a{
     background-color: transparent;
-    color: #ffffff;
+    color: #8b8b8b;
     border: none;
     font-size: 18px;
     padding: 20px;
 }
-
-.etapas button{
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 18px;
+.etapas a:hover{
+    font-weight: 600;
+    color: #585858;
+    text-decoration: none;
+    transition: all 0.5s;
 }
-.produto button{
+.produto a{
     font-weight: 600;
     color: #FFBC42;
 }
+.produto a:hover{
+    color: #FFBC42;
+}
+.txtPag{
+    text-align: center;
+    margin: 20px 0 80px 0; 
+    font-size: 20px;
+}
+
 
 /*Anuncio de frete gratis*/
 .FreteGratis{
@@ -61,29 +60,55 @@
     border-radius: 10px;
     margin-bottom: 150px;
 }
+.infoProduto input{
+    padding: 0 15px;
+}
 
 .infoTamanho, .quantidade, .infoPreco{
     margin-top: 100px;
     font-size: 20px;
 }
-.subtotal,.entrega,.total{
+.subtotal,.entrega,.total, .cupomdedesconto{
     font-size: 20px;
     margin-top: 20px;
     border-bottom: 1px solid #080705;
 }
+.cupomdedesconto{
+    float: inline-end;
+}
 
 .etapasProxCont{
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .etapasProxCont a{
     text-align: center;
+        
 }
-.proximaEtapa{
-    float: right;
+ .continComprando a{
+    float: left;
+    margin-left: 80px;
+    background-color: none;
+    color: #031D44;
+}
+.continComprando a:hover{
+    color: #247BA0;
+    transition: all 0.5s;
+    text-decoration: none;
 }
 
-.proximaEtapa{
+.proximaEtapa a{
     float: right;
+    background-color: #031D44;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 80px;
 }
-
+.proximaEtapa a:hover{
+    background-color: #247BA0;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: white;
+}

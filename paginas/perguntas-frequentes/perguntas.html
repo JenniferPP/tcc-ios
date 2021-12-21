@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+    <!--Favicon da página-->
+    <link rel="shortcut icon" href="../img/logo/favicon.png">
+    <!--Link do CSS-->
+    <link rel="stylesheet" href="./style/perguntas.css">
+    <link rel="stylesheet" href="../menu/menu.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <!--Link do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Box Icons Font CDN LINK-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!--Font Waesome Font CDN LINK-->
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+    <div class="menu">
+        <!--Formulário de login-->
+        <div id="pop1" class="popbox">
+            <div class="formLog">
+                <form action="../Home/index.html" method="get" id="login">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required="required">
+                    
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha" required="required"><br>
+                </form>
+
+                <!--Botões de Entrar e Cancelar-->
+                <div class="entar-cancelar">
+                    <button type="submit" form="login" class="btnEntrar acessar" >Entrar</button>
+                    <a href="../Login-Cadastro/cadastro.html" class="btnCadastrar acessar">Cadastrar-se</a>
+                </div>
+            </div>
+        </div>
+        <!--Login, sacola de compras, favoritos e perfil-->
+        <div class="row acessos mr-0">
+            <div class="col-6 logCad">
+                <a href="../Login-Cadastro/login.html" class="logCadBtn">login/cadastro</a>
+            </div>
+            <div class="col-5 compras">
+                <a href="../carrinho/carrinho.html" class="sacola"><i class='bx bxs-shopping-bag-alt arrowCompras'></i></a>
+                <a href="#" class="favoritos"><i class='bx bxs-heart arrowCompras'></i></a>
+                <a href="#" class="usuario popper" data-popbox="pop1"><i class='bx bxs-user arrowCompras'></i></a>
+            </div>
+        </div>
+
+        <!--Logo, menu de navegação -->
+        <div id="navMenu row">
+            <!--Logo-->
+            <div class="logo">
+                <label><a class="imgLogo" href="../Home/index.html"><img src="../img/logo/logo-branco-menor.png"></a></label>
+            </div>
+            <div class="hamburguer">
+                <span class="fas fa-bars"></span>
+            </div>
+            <!--menu de navegação -->
+            <nav class="mainMenu" id="sidebar">
+                <div class="nav">
+                    <ul class="links">
+                        <li class="active"><a href="../Home/index.html">HOME</a></li>
+                        <li><a href="../Sobre-Nos/sobreNos.html">SOBRE NÓS</a></li>
+                        <li>
+                            <a class="prodBtn" href="#produtos">PRODUTOS
+                                <span class="fas fa-caret-down only"></span>
+                            </a>
+                            <ul class="prod-show">
+                                <li><a href="../produtos/produtos-camisetas.html">Camisetas</a></li>
+                                <li><a href="../produtos/produtos-calcas.html">Calças</a></li>
+                                <li><a href="../produtos/produtos-moletom.html">Moletons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Contato/contato.html">CONTATO</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!------------------FIM DO MENU EM HTML-->
+
+    
+
+    <header>
+        <!--começo da navegação-->
+        <nav class="navbar navbar-expand-lg navbar-Warning  bg-warning">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-danger  bg-danger">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+                <div id="navMenu row">
+            </button>
+        </nav>
+        </div>
+    </header>
+    <!-- Final da navegação-->
+
+    <section>
+        <!-- <div class="sidebarnutella"> -->
+        <div class="sidebar-perguntas">
+            <ul>
+                <li>
+                    <a href="#sobrenos" class="itemperfil">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#comofunciona" class="itemperfil">Como funciona</a>
+                </li>
+                <li>
+                    <a href="#segurança" class="itemperfil">Segurança</a>
+                </li>
+                <li>
+                    <a href="#conta" class="itemperfil"> Sua conta</a>
+                </li>
+                <li>
+                    <a href="#privacidade" class="itemperfil">Privacidade</a>
+                </li>
+                <li>
+                    <a href="#entrega" class="itemperfil">Entrega</a>
+                </li>
+                <li>
+                    <a href="#crievoce" class="itemperfil">Crie você mesmo</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="sobrenos row" id="sobrenos">
+            <div class="col-12">
+                <h2 class="titulo titulo1">
+                    Sobre nós
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+                Somos um E-commerce voltado para o mundo Geek, no qual possui espaço para todas as idades, pensamos
+                muito em nossos clientes e na inovação nesse universo, temos a opção do faca você mesmo para criar
+                estilos de acordo com sua personalidade e gosto.
+            </p>
+        </span>
+        </div>
+        <div class="comofunciona row" id="comofunciona">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Como funciona?
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+                  AnimeC além de ser um e-commerce possuimos uma equipe de produção dos produtos, buscamos fácil acesso, agilizade, praticidade, produtos de qualidade, licenciados e inspirados no mundo Geek.
+            </p>
+        </span>
+        </div>
+        <div class="segurança row" id="segurança">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Segurança
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+                Visamos a segurança dos nossos clientes os dados bancários, endereços, telefone e nome não são divulgados no qual, passamos por um processo de validação ao acessar o nosso site.
+            </p>
+        </span>
+        <div class="conta row" id="conta">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Sua conta
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+               Se você desejar alterar, atualizar, remover e até mesmo adicionar algum dado pessoal você poderá alterar na parte de "Minha conta".
+            </p>
+        </span>
+        <div class="privacidade row" id="privacidade">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Privacidade
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+                Nos preocupamos com a sua segurança e privacidade, no qual os dados pessoais não serão divulgados.
+            </p>
+        </span>
+        <div class="entrega row" id="entrega">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Entrega
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+                A entraga dos produto será de acordo com as informações no ato do pagamento, pedimos que se atende na hora da digitação dos dados informa.
+
+                Caso deseje realizar a troca do produto ou até mesmo a devolução, entre em contanto conosco.
+            </p>
+        </span>
+        <div class="crievoce" id="crievoce">
+            <div class="col-12">
+                <h2 class="titulo">
+                    Crie você mesmo
+                </h2>
+            </div>
+        </div>
+        <span class="maça">
+            <p class="text-dark">
+                O crie você mesmo é parte onde nossos clientes depositam sua criatividade, no qual você personaliza a sua camiseta, blusa ou moletons da forma que você mais desejar.
+
+            </p>
+        </span>
+    </section>
+    <footer>
+        <!-- <div class="fixed-top"> -->
+        <nav class="footer navbar-expand-lg navbar-Warning bg-warning">
+            <div class="none">
+            <a class="footer" href="#">Fale conosco</a>
+            <a class="footer" href="#">SAC</a>
+            <a class="footer" href="#">Ouvidoria</a>
+            <a class="footer" href="#">Nossas redes</a>
+            Todos os direitos reservado &copy;
+        </div>
+        </nav>
+        <!-- </div> -->
+
+    <br>
+    <!------------------INICIO DO RODAPÉ-->
+        <div class="rodape row mr-0">
+            <div class="col-sm-3">
+                <div class="contato-footer">
+                    <div class="logoFooter">
+                        <label class="imgLogoFooter"><a href="../Home/index.html"><img src="../img/logo/logo-branco-menor_200px.png" width="200px"></a></label>
+                    </div>
+                    <div class="infoFooter">
+                        <p>
+                            <a href="mailto:contato@animec.com.br">contato@animec.com.br</a><br>
+                            <a href="tel:+55961794807">(11) 91234-5678</a>
+                        </p>      
+                    </div>
+                </div>
+            </div>
+
+            <!--Menu Footer-->
+            <div class="menuFooter col-sm-3">
+                <ul class="footerMenu"> 
+                    <p class="txtFooter">Menu</p>
+                    <li class="itemFooterMenu"><a href="../Home/index.html">Home</a></li>
+                    <li class="itemFooterMenu"><a href="../Sobre-Nos/sobreNos.html">Sobre nós</a></li>
+                    <li class="itemFooterMenu"><a href="#produtos">Produtos</a>
+                        <ul class="dropFooterMenu">
+                            <li class="dropFooterItem"><a href="../produtos/produtos-camisetas.html">Camisetas</a></li>
+                            <li class="dropFooterItem"><a href="../produtos/produtos-calcas.html">Calças</a></li>
+                            <li class="dropFooterItem"><a href="../produtos/produtos-moletom.html">Moletons</a></li>
+                        </ul>
+                    </li>
+                    <li class="itemFooterMenu"><a href="../Contato/contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footerAjuda col-sm-3">
+                <p class="txtFooter">ajuda</p>
+                <ul class="ajudaFooter">
+                    <li class="itemAjudaFooter"><a href="../perguntas-frequentes/perguntas.html#sobrenos">Sobre nós</a></li>
+                    <li class="itemAjudaFooter"><a href="../perguntas-frequentes/perguntas.html#comofunciona">Como funciona</a></li>
+                    <li class="itemAjudaFooter"><a href="../perguntas-frequentes/perguntas.html#segurança">Segurança</a></li>
+                    <li class="itemAjudaFooter"><a href="../perguntas-frequentes/perguntas.html#conta">Sua conta</a></li>
+                    <li class="itemAjudaFooter"><a href="../perguntas-frequentes/perguntas.html#privacidade">Privacidade</a></li>
+                    <li class="itemAjudaFooter"><a href="../perguntas-frequentes/perguntas.html">Ver todas</a></li>
+                </ul>
+            </div>
+            <div class="acessoFooter col-sm-3 float-end">
+                <a href="../Login-Cadastro/login.html" class="logCadFooter">login/cadastro</a>
+                <p class="txtmidias">Nos siga:</p>
+                <div class="midias">
+                    <a href="#"><i class='bx bxl-facebook midiasSociais'></i></a>
+                    <a href="#"><i class='bx bxl-instagram midiasSociais'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin midiasSociais'></i></a>
+                </div>
+                <div class="politica">
+                    <p class="politicaUso">Veja nosssa <strong><a href="#">Política de Uso</a></strong></p>
+                </div>
+            </div>
+            <div class="copy">
+                <p class="copyright">Copyrigh - Este site foi criado para um projeto de TCC</p>
+            </div>
+        </div>
+        <div class="pagamentos">
+            <p>Formas de pagamento</p>
+            <div class="infoPag row mr-0">
+                <div class="pagamento pag1 col-2">
+                    <i class="fas fa-credit-card credito pag"></i>
+                    <p class="txtPag">Crédito</p>
+                </div>
+                <div class="pagamento pag2 col-2">
+                    <i class="far fa-credit-card debito pag"></i>
+                    <p class="txtPag">Débito</p>
+                </div>
+                <div class="pagamento pag3 col-2">
+                    <i class="fas fa-money-check-alt boleto pag"></i>
+                    <p class="txtPag">Boleto</p>
+                </div>
+                <div class="pagamento pag4 col-2">
+                    <i class="fas fa-money-check pix pag"></i>
+                    <p class="txtPag">PIX</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!------------------FIM DO RODAPÉ-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!--Link do JS-->
+    <script src="../menu/menu.js"></script>
+</body>
+
+</html>

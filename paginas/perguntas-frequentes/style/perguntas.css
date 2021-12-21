@@ -1,28 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,300&display=swap');
 * {
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Poppins', sans-serif;
 }
 
+/* Corpo da página */
 .sidebar-perguntas {
-     list-style: none; 
+    list-style: none; 
     width: 400px;
     float: left;
     border: 1px solid #c4c4c4;
-    margin: 10px 15px 0px 15px;
-     padding: 1rem; 
+    margin: 150px 15px 0px 15px;
+    padding: 1rem; 
     padding-bottom: 8px solid #c4c4c4;  
-    height: 225vh;
+    height: 86.5rem;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
-        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+
+
 .sidebar-perguntas ul li .itemperfil { 
     text-decoration: none;
     color: #080705;
@@ -30,15 +26,15 @@ body {
     text-align: center;
     margin: 1rem;
      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-     line-height: 40px;
-     display: block;
-     transition: all 0.4s ease;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
-     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
-
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    line-height: 40px;
+    display: block;
+    transition: all 0.4s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 } 
+.titulo1{
+    margin-top: 150px;
+}
 .titulo {
     font-size: 1.5rem;
     text-align: center;

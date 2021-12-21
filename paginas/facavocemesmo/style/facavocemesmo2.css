@@ -1,0 +1,107 @@
+/* Camiseta*/
+.camiseta a{
+    color:#247ba0;
+    margin-left: 40%;
+    font-size: 18px;
+}
+.camiseta a:hover{
+    color:#f2545b;
+    text-decoration: none;
+    transition: all 0.3;
+}
+.camiseta img{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-left: 80px;
+}
+
+/* Tamanhos */
+.infoCamiseta p{
+    margin-left: -10px;
+}
+.tamamhos{
+text-align: center;
+}
+
+p{
+    color: #080705;
+    margin: 10px 40px;
+    font-size: 20px;
+}
+
+.tamanhos .btn button{
+    font-size: 18px;
+    background-color: #f2545b;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.tamanhos .btn button:focus{
+    border: 3px solid #FFBC42;
+}
+.tamanhos .btn .P{
+    padding: 15px 23px 15px 23px;
+}
+.tamanhos .btn .M{
+    padding: 15px 20px 15px 20px;
+}
+.tamanhos .btn .G{
+    padding: 15px 22px 15px 22px;
+}
+.tamanhos .btn .GG{
+    padding: 15px;
+}
+
+
+/* Cores botões */
+.cores{
+    text-align: center;
+}
+.cores button:focus{
+    border: 3px solid #FFBC42;
+}
+.azul{
+    padding: 30px;
+    border: none;
+    background-color: #247ba0;
+    border-radius: 50px;
+}
+
+.azulEscuro{
+    padding: 30px;
+    border: none;
+    background-color: #031d44;
+    border-radius: 50px;
+}
+
+.preto{
+    padding: 30px;
+    border: none;
+    background-color: #080705;
+    border-radius: 50px;
+}
+
+
+.imgCamiseta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btnEnviar{
+    background-color: #031d44;
+    padding: 10px 35px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btnEnviar:hover{
+    background-color: #247ba0;
+    transition: all 0.5s;
+}

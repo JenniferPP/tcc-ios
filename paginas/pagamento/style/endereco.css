@@ -1,0 +1,110 @@
+/*Botões das etapas*/
+
+.etapas{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.produto, .endereco, .pagamento{
+    text-align: center;
+}
+.etapas a{
+    background-color: transparent;
+    color: #8b8b8b;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+}
+.etapas a:hover{
+    font-weight: 600;
+    color: #585858;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.endereco a{
+    font-weight: 600;
+    color: #FFBC42;
+}
+.endereco a:hover{
+    color: #FFBC42;
+}
+.txtPag{
+    text-align: center;
+    margin: 20px 0 80px 0; 
+    font-size: 20px;
+}
+
+
+/*estilo do formúlario*/
+header{
+    text-align: center;
+
+}
+.formEndereco{
+    margin-top: -40px;
+}
+.field {
+      padding: 50px;
+      margin-left: 20px;
+}
+
+.field label {
+      font-size: 16px;
+      font-weight: bold;
+
+}
+
+.field input {
+    height: 40px;
+    padding: 5px 0 5px 10px;
+    font-size: 18px;
+    color: #031d44;
+    border: 1px solid #c4c4c4;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    outline: none;
+    width: 90%;
+}
+
+.radiobox input {
+    height: 15px;
+    width: 100px;
+
+}
+
+.etapasProxCont{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.etapasProxCont a{
+    text-align: center;
+        
+}
+ .continComprando a{
+    float: left;
+    margin-left: 80px;
+    background-color: none;
+    color: #031D44;
+}
+.continComprando a:hover{
+    color: #247BA0;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.proximaEtapa a{
+    float: right;
+    background-color: #031D44;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 80px;
+}
+.proximaEtapa a:hover{
+    background-color: #247BA0;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: white;
+}

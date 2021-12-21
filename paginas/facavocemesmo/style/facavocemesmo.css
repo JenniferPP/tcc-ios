@@ -1,7 +1,9 @@
 .faca{
     text-align: center;
 }
-
+.imgCamiseta{
+    display: flex;
+}
 .txtFaca .txtPersonalize{
     text-align: center;
     padding: 30px;
@@ -45,12 +47,21 @@
     color: #fff;
     transition: all 0.3s;
 }
+.btnFemi:focus{
+    background-color: #031d44;
+    color: white;
+}
+.btnMasc:focus{
+    background-color: #031d44;
+    color: white;
+}
     
- .btn{
-     text-align: center;
-     margin-top: 15px;
- }
-.btnPersonalizar button{
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnPersonalizar a{
     padding: 7px 40px;
     font-size: 20px;
     font-weight: 600;
@@ -58,4 +69,11 @@
     background-color: #247ba0;
     color: #fff;
     border: none;
+}
+
+.btnPersonalizar a:hover{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    background-color: #031d44;
 }
